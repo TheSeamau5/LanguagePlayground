@@ -1,0 +1,56 @@
+:host {
+  display: block;
+}
+
+#drawerHeaderPanel {
+  z-index : 0;
+}
+
+#drawerHeaderPanel core-toolbar {
+  background : #3498db;
+  color : white;
+  font-weight : 300;
+}
+
+#drawerSection {
+  background : white;
+}
+
+#drawerSection paper-button {
+  background: #fafafa;
+  margin-top: 20px;
+}
+
+#drawerSection paper-button::shadow #ripple {
+  color : #2ecc71;
+}
+
+#mainHeaderPanel core-toolbar {
+  background: #3498db ;
+  color : white;
+  font-weight : 300;
+}
+
+
+
+paper-tabs {
+  font-size : 1em;
+  font-weight : 300;
+
+}
+
+
+code-mirror {
+  font-family : "Source Code Pro", "Menlo", monospace;
+  font-size : 1.4em;
+  font-weight : 100;
+  z-index : 0;
+}
+
+paper-fab {
+  position : absolute;
+  right : 10px;
+  bottom : 10px;
+  background : #2ecc71;
+
+}
